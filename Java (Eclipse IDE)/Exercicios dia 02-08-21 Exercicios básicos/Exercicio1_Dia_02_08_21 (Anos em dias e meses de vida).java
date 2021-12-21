@@ -7,27 +7,21 @@ public class Exercicio1_Dia_02_08_21
 
 	public static void main(String[] args) 
 	{
-		
-		
-		
 		int anos = 0,meses = 0,dias = 0;
 		
 		Scanner leia = new Scanner(System.in);
-		System.out.println("\nInsira quantos anos você tem: ");
+		System.out.println("\nInsira quantos anos vocï¿½ tem: ");
 		anos = leia.nextInt();
-		System.out.println("\nInsira quantos meses você tem: ");
+		System.out.println("\nInsira quantos meses vocï¿½ tem: ");
 		meses = leia.nextInt();
-		System.out.println("\nInsira quantos dias você tem: ");
+		System.out.println("\nInsira quantos dias vocï¿½ tem: ");
 		dias = leia.nextInt();
 		
 		dias+=anos*365;
 		dias+=meses*30;
-		
-		
-		System.out.println("\nVocê possuí: "+ dias+" dias de vida.");
-		
+
+		System.out.println("\nVocï¿½ possuï¿½: "+ dias+" dias de vida.");
 		
 	}
-	
 	
 }
